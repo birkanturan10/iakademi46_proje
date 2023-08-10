@@ -1,0 +1,200 @@
+﻿@model Product
+
+@{
+    ViewData["Title"] = "ProductDetails";
+    Layout = "~/Views/Shared/AdminLayout.cshtml";
+    iakademi46Context context = new iakademi46Context();
+}
+
+
+<div class="row">
+    <div class="col-md-2"></div>
+
+    <div class="col-md-8 ">
+        <!-- BEGIN SAMPLE TABLE PORTLET-->
+        <div class="portlet box green">
+            <div class="portlet-title">
+                <div class="caption">
+                    <i class="fa fa-cogs"></i><span style="background-color:red;color:white;">@ViewBag.product</span>   ÜRÜNÜ DETAYI
+                </div>
+                <div class="tools">
+                    <a href="javascript:;" class="collapse">
+                    </a>
+                    <a href="#portlet-config" data-toggle="modal" class="config">
+                    </a>
+                    <a href="javascript:;" class="reload">
+                    </a>
+                    <a href="javascript:;" class="remove">
+                    </a>
+                </div>
+            </div>
+            <div class="portlet-body flip-scroll">
+                <table class="table table-bordered table-striped table-condensed flip-content">
+                    <thead class="flip-content">
+
+                        <tr>
+                            <th width="20%">
+                                @Html.DisplayNameFor(model => model.ProductID)
+                            </th>
+                            <th>
+                                @Html.DisplayFor(model => model.ProductID)
+                            </th>
+                        </tr>
+
+                        <tr>
+                            <th width="20%">
+                                @Html.DisplayNameFor(model => model.ProductName)
+                            </th>
+                            <th>
+                                @Html.DisplayFor(model => model.ProductName)
+                            </th>
+                        </tr>
+
+
+                        <tr>
+                            <th width="20%">
+                                @Html.DisplayNameFor(model => model.UnitPrice)
+                            </th>
+                            <th>
+                                @Html.DisplayFor(model => model.UnitPrice)
+                            </th>
+                        </tr>
+
+
+                        <tr>
+                            <th width="20%">
+                                @Html.DisplayNameFor(model => model.CategoryID)
+                            </th>
+                            <th>
+                                @{
+
+                                    string? CategoryName = context.Categories.FirstOrDefault(c => c.CategoryID == Model.CategoryID).CategoryName;
+                                    @CategoryName
+                                }
+                            </th>
+                        </tr>
+
+
+                        <tr>
+                            <th width="20%">
+                                @Html.DisplayNameFor(model => model.SupplierID)
+                            </th>
+                            <th>
+                                @{
+
+                                    string? BrandName = context.Suppliers.FirstOrDefault(c => c.SupplierID == Model.SupplierID).BrandName;
+                                    @BrandName
+                                }
+                            </th>
+                        </tr>
+
+                        <tr>
+                            <th width="20%">
+                                @Html.DisplayNameFor(model => model.Stock)
+                            </th>
+                            <th>
+                                @Html.DisplayFor(model => model.Stock)
+                            </th>
+                        </tr>
+
+                        <tr>
+                            <th width="20%">
+                                @Html.DisplayNameFor(model => model.Discount)
+                            </th>
+                            <th>
+                                @Html.DisplayFor(model => model.Discount)
+                            </th>
+                        </tr>
+
+
+
+                        <tr>
+                            <th width="20%">
+                                @Html.DisplayNameFor(model => model.StatusID)
+                            </th>
+                            <th>
+                                @{
+
+                                    string? StatusName = context.Statuses.FirstOrDefault(c => c.StatusID == Model.StatusID).StatusName;
+                                    @StatusName
+                                }
+                            </th>
+                        </tr>
+
+
+
+                        <tr>
+                            <th width="20%">
+                                @Html.DisplayNameFor(model => model.Keywords)
+                            </th>
+                            <th>
+                                @Html.DisplayFor(model => model.Keywords)
+                            </th>
+                        </tr>
+
+                        <tr>
+                            <th width="20%">
+                                @Html.DisplayNameFor(model => model.Kdv)
+                            </th>
+                            <th>
+                                @Html.DisplayFor(model => model.Kdv)
+                            </th>
+                        </tr>
+
+                        <tr>
+                            <th width="20%">
+                                @Html.DisplayNameFor(model => model.Related)
+                            </th>
+                            <th>
+                                @Html.DisplayFor(model => model.Related)
+                            </th>
+                        </tr>
+
+                        <tr>
+                            <th width="20%">
+                                @Html.DisplayNameFor(model => model.Notes)
+                            </th>
+                            <th>
+                                @Html.DisplayFor(model => model.Notes)
+                            </th>
+                        </tr>
+
+                        <tr>
+                            <th width="20%">
+                                @Html.DisplayNameFor(model => model.AddDate)
+                            </th>
+                            <th>
+                                @Html.DisplayFor(model => model.AddDate)
+                            </th>
+                        </tr>
+
+
+                        <tr>
+                            <th width="20%">
+                                @Html.DisplayNameFor(model => model.PhotoPath)
+                            </th>
+                            <th>
+                                <img src="~/resimler/@Model.PhotoPath" alt="logo"  style="height:100px;width:100px;"/>
+                            </th>
+                        </tr>
+
+                        <tr>
+                            <th width="20%">
+                                @Html.DisplayNameFor(model => model.Active)
+                            </th>
+                            <th>
+                                @Html.DisplayFor(model => model.Active)
+                            </th>
+                        </tr>
+
+                    </thead>
+                </table>
+                <div class="form-actions right1">
+                    <a asp-action="ProductIndex" class="btn btn-primary">ÜRÜN LİSTESİ</a>
+                </div>
+            </div>
+        </div>
+        <!-- END SAMPLE TABLE PORTLET-->
+    </div>
+</div>
+

@@ -1,0 +1,217 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = iakademi46_proje
+build_property.RootNamespace = iakademi46_proje
+build_property.ProjectDir = C:\Users\birka\Desktop\İ - Akademi Kurs\Örnek Projeler\iakademi46_proje\iakademi46_proje\iakademi46_proje\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\birka\Desktop\İ - Akademi Kurs\Örnek Projeler\iakademi46_proje\iakademi46_proje\iakademi46_proje
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/birka/Desktop/İ - Akademi Kurs/Örnek Projeler/iakademi46_proje/iakademi46_proje/iakademi46_proje/Views/Admin/CategoryCreate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ2F0ZWdvcnlDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/birka/Desktop/İ - Akademi Kurs/Örnek Projeler/iakademi46_proje/iakademi46_proje/iakademi46_proje/Views/Admin/CategoryDelete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ2F0ZWdvcnlEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/birka/Desktop/İ - Akademi Kurs/Örnek Projeler/iakademi46_proje/iakademi46_proje/iakademi46_proje/Views/Admin/CategoryDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ2F0ZWdvcnlEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/birka/Desktop/İ - Akademi Kurs/Örnek Projeler/iakademi46_proje/iakademi46_proje/iakademi46_proje/Views/Admin/CategoryEdit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ2F0ZWdvcnlFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/birka/Desktop/İ - Akademi Kurs/Örnek Projeler/iakademi46_proje/iakademi46_proje/iakademi46_proje/Views/Admin/CategoryIndex.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ2F0ZWdvcnlJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/birka/Desktop/İ - Akademi Kurs/Örnek Projeler/iakademi46_proje/iakademi46_proje/iakademi46_proje/Views/Admin/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/birka/Desktop/İ - Akademi Kurs/Örnek Projeler/iakademi46_proje/iakademi46_proje/iakademi46_proje/Views/Admin/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/birka/Desktop/İ - Akademi Kurs/Örnek Projeler/iakademi46_proje/iakademi46_proje/iakademi46_proje/Views/Admin/ProductCreate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cUHJvZHVjdENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/birka/Desktop/İ - Akademi Kurs/Örnek Projeler/iakademi46_proje/iakademi46_proje/iakademi46_proje/Views/Admin/ProductDelete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cUHJvZHVjdERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/birka/Desktop/İ - Akademi Kurs/Örnek Projeler/iakademi46_proje/iakademi46_proje/iakademi46_proje/Views/Admin/ProductDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cUHJvZHVjdERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/birka/Desktop/İ - Akademi Kurs/Örnek Projeler/iakademi46_proje/iakademi46_proje/iakademi46_proje/Views/Admin/ProductEdit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cUHJvZHVjdEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/birka/Desktop/İ - Akademi Kurs/Örnek Projeler/iakademi46_proje/iakademi46_proje/iakademi46_proje/Views/Admin/ProductIndex.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cUHJvZHVjdEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/birka/Desktop/İ - Akademi Kurs/Örnek Projeler/iakademi46_proje/iakademi46_proje/iakademi46_proje/Views/Admin/StatusCreate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cU3RhdHVzQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/birka/Desktop/İ - Akademi Kurs/Örnek Projeler/iakademi46_proje/iakademi46_proje/iakademi46_proje/Views/Admin/StatusDelete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cU3RhdHVzRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/birka/Desktop/İ - Akademi Kurs/Örnek Projeler/iakademi46_proje/iakademi46_proje/iakademi46_proje/Views/Admin/StatusDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cU3RhdHVzRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/birka/Desktop/İ - Akademi Kurs/Örnek Projeler/iakademi46_proje/iakademi46_proje/iakademi46_proje/Views/Admin/StatusEdit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cU3RhdHVzRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/birka/Desktop/İ - Akademi Kurs/Örnek Projeler/iakademi46_proje/iakademi46_proje/iakademi46_proje/Views/Admin/StatusIndex.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cU3RhdHVzSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/birka/Desktop/İ - Akademi Kurs/Örnek Projeler/iakademi46_proje/iakademi46_proje/iakademi46_proje/Views/Admin/SupplierCreate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cU3VwcGxpZXJDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/birka/Desktop/İ - Akademi Kurs/Örnek Projeler/iakademi46_proje/iakademi46_proje/iakademi46_proje/Views/Admin/SupplierDelete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cU3VwcGxpZXJEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/birka/Desktop/İ - Akademi Kurs/Örnek Projeler/iakademi46_proje/iakademi46_proje/iakademi46_proje/Views/Admin/SupplierDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cU3VwcGxpZXJEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/birka/Desktop/İ - Akademi Kurs/Örnek Projeler/iakademi46_proje/iakademi46_proje/iakademi46_proje/Views/Admin/SupplierEdit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cU3VwcGxpZXJFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/birka/Desktop/İ - Akademi Kurs/Örnek Projeler/iakademi46_proje/iakademi46_proje/iakademi46_proje/Views/Admin/SupplierIndex.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cU3VwcGxpZXJJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/birka/Desktop/İ - Akademi Kurs/Örnek Projeler/iakademi46_proje/iakademi46_proje/iakademi46_proje/Views/Home/Cart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDYXJ0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/birka/Desktop/İ - Akademi Kurs/Örnek Projeler/iakademi46_proje/iakademi46_proje/iakademi46_proje/Views/Home/CategoryPage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDYXRlZ29yeVBhZ2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/birka/Desktop/İ - Akademi Kurs/Örnek Projeler/iakademi46_proje/iakademi46_proje/iakademi46_proje/Views/Home/Confirm.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb25maXJtLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/birka/Desktop/İ - Akademi Kurs/Örnek Projeler/iakademi46_proje/iakademi46_proje/iakademi46_proje/Views/Home/ContactUs.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb250YWN0VXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/birka/Desktop/İ - Akademi Kurs/Örnek Projeler/iakademi46_proje/iakademi46_proje/iakademi46_proje/Views/Home/DetailedSearch.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxEZXRhaWxlZFNlYXJjaC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/birka/Desktop/İ - Akademi Kurs/Örnek Projeler/iakademi46_proje/iakademi46_proje/iakademi46_proje/Views/Home/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/birka/Desktop/İ - Akademi Kurs/Örnek Projeler/iakademi46_proje/iakademi46_proje/iakademi46_proje/Views/Home/DiscountedProducts.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxEaXNjb3VudGVkUHJvZHVjdHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/birka/Desktop/İ - Akademi Kurs/Örnek Projeler/iakademi46_proje/iakademi46_proje/iakademi46_proje/Views/Home/DpProducts.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxEcFByb2R1Y3RzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/birka/Desktop/İ - Akademi Kurs/Örnek Projeler/iakademi46_proje/iakademi46_proje/iakademi46_proje/Views/Home/gettingProducts.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxnZXR0aW5nUHJvZHVjdHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/birka/Desktop/İ - Akademi Kurs/Örnek Projeler/iakademi46_proje/iakademi46_proje/iakademi46_proje/Views/Home/HighlightedProducts.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxIaWdobGlnaHRlZFByb2R1Y3RzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/birka/Desktop/İ - Akademi Kurs/Örnek Projeler/iakademi46_proje/iakademi46_proje/iakademi46_proje/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/birka/Desktop/İ - Akademi Kurs/Örnek Projeler/iakademi46_proje/iakademi46_proje/iakademi46_proje/Views/Home/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/birka/Desktop/İ - Akademi Kurs/Örnek Projeler/iakademi46_proje/iakademi46_proje/iakademi46_proje/Views/Home/MyOrders.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxNeU9yZGVycy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/birka/Desktop/İ - Akademi Kurs/Örnek Projeler/iakademi46_proje/iakademi46_proje/iakademi46_proje/Views/Home/NewProducts.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxOZXdQcm9kdWN0cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/birka/Desktop/İ - Akademi Kurs/Örnek Projeler/iakademi46_proje/iakademi46_proje/iakademi46_proje/Views/Home/Order.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxPcmRlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/birka/Desktop/İ - Akademi Kurs/Örnek Projeler/iakademi46_proje/iakademi46_proje/iakademi46_proje/Views/Home/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/birka/Desktop/İ - Akademi Kurs/Örnek Projeler/iakademi46_proje/iakademi46_proje/iakademi46_proje/Views/Home/SpecialProducts.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTcGVjaWFsUHJvZHVjdHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/birka/Desktop/İ - Akademi Kurs/Örnek Projeler/iakademi46_proje/iakademi46_proje/iakademi46_proje/Views/Home/TopsellerProducts.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxUb3BzZWxsZXJQcm9kdWN0cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/birka/Desktop/İ - Akademi Kurs/Örnek Projeler/iakademi46_proje/iakademi46_proje/iakademi46_proje/Views/Home/_PartialDiscountedProducts.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxfUGFydGlhbERpc2NvdW50ZWRQcm9kdWN0cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/birka/Desktop/İ - Akademi Kurs/Örnek Projeler/iakademi46_proje/iakademi46_proje/iakademi46_proje/Views/Home/_PartialHighlightedProducts.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxfUGFydGlhbEhpZ2hsaWdodGVkUHJvZHVjdHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/birka/Desktop/İ - Akademi Kurs/Örnek Projeler/iakademi46_proje/iakademi46_proje/iakademi46_proje/Views/Home/_PartialNewProducts.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxfUGFydGlhbE5ld1Byb2R1Y3RzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/birka/Desktop/İ - Akademi Kurs/Örnek Projeler/iakademi46_proje/iakademi46_proje/iakademi46_proje/Views/Home/_PartialSpecialProducts.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxfUGFydGlhbFNwZWNpYWxQcm9kdWN0cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/birka/Desktop/İ - Akademi Kurs/Örnek Projeler/iakademi46_proje/iakademi46_proje/iakademi46_proje/Views/Shared/AdminLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEFkbWluTGF5b3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/birka/Desktop/İ - Akademi Kurs/Örnek Projeler/iakademi46_proje/iakademi46_proje/iakademi46_proje/Views/Shared/Components/Footers/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcRm9vdGVyc1xEZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/birka/Desktop/İ - Akademi Kurs/Örnek Projeler/iakademi46_proje/iakademi46_proje/iakademi46_proje/Views/Shared/Components/Menus/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcTWVudXNcRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/birka/Desktop/İ - Akademi Kurs/Örnek Projeler/iakademi46_proje/iakademi46_proje/iakademi46_proje/Views/Shared/DefaultLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXERlZmF1bHRMYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/birka/Desktop/İ - Akademi Kurs/Örnek Projeler/iakademi46_proje/iakademi46_proje/iakademi46_proje/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/birka/Desktop/İ - Akademi Kurs/Örnek Projeler/iakademi46_proje/iakademi46_proje/iakademi46_proje/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 

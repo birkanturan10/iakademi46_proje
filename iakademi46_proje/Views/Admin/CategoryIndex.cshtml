@@ -1,0 +1,133 @@
+﻿@model IEnumerable<Category>
+
+@{
+    ViewData["Title"] = "CategoryIndex";
+    Layout = "~/Views/Shared/AdminLayout.cshtml";
+}
+
+<!-- BEGIN PAGE CONTENT-->
+<div class="row">
+    <div class="col-md-2"></div>
+    <div class="col-md-8">
+
+        <p>
+            <a asp-action="CategoryCreate" asp-controller="Admin" class="btn btn-success">YENİ KATEGORİ</a>
+        </p>
+
+        <!-- BEGIN SAMPLE TABLE PORTLET-->
+        <div class="portlet box red">
+            <div class="portlet-title">
+                <div class="caption">
+                    <i class="fa fa-cogs"></i>KATEGORİ LİSTESİ
+                </div>
+                <div class="tools">
+                    <a href="javascript:;" class="collapse">
+                    </a>
+                    <a href="#portlet-config" data-toggle="modal" class="config">
+                    </a>
+                    <a href="javascript:;" class="reload">
+                    </a>
+                    <a href="javascript:;" class="remove">
+                    </a>
+                </div>
+            </div>
+            <div class="portlet-body">
+                <div class="table-scrollable">
+                    <table class="table table-hover">
+                        <thead>
+                            <tr style="background-color:gray;color:white;">
+                                <th>
+                                    @Html.DisplayNameFor(model => model.CategoryID)
+                                </th>
+                                <th>
+                                    @Html.DisplayNameFor(model => model.CategoryName)
+                                </th>
+                                <th>
+                                    @Html.DisplayNameFor(model => model.Active)
+                                </th>
+                                <th></th>
+                                <th></th>
+                                <th></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                            @foreach (var item in Model.Where(c => c.ParentID == 0))
+                            {
+                                <tr>
+                                    <td>
+                                        @Html.DisplayFor(model => item.CategoryID)
+                                    </td>
+                                    <td>
+                                        <span style="background-color:red;color:white;">@Html.DisplayFor(model => item.CategoryName)</span>
+                                    </td>
+                                    @* <td>  @Html.DisplayFor(model => item.Active)  </td> *@
+                                    @if (item.Active)
+                                    {
+                                        <td>
+                                            <label style="background-color:green;color:white;">AKTİF</label>
+                                        </td>
+                                    }
+                                    else
+                                    {
+                                        <td>
+                                            <label style="background-color:orangered;color:white;">PASİF</label>
+                                        </td>
+                                    }
+                                    <td>
+                                        <a asp-action="CategoryEdit" asp-route-id="@item.CategoryID" class="btn btn-primary">DÜZELT</a>
+
+                                        <a asp-action="CategoryDetails" asp-route-id="@item.CategoryID" class="btn btn-info">DETAY</a>
+
+                                        <a asp-action="CategoryDelete" asp-route-id="@item.CategoryID" class="btn btn-danger">SİL</a>
+                                    </td>
+                                </tr>
+
+                                @foreach (var subitem in Model)
+                                {
+                                    if (item.CategoryID == subitem.ParentID)
+                                    {
+                                        //alt kategori
+                                        <tr>
+                                            <td>
+                                                @Html.DisplayFor(model => subitem.CategoryID)
+                                            </td>
+                                            <td>
+                                                @Html.DisplayFor(model => subitem.CategoryName)
+                                            </td>
+                                            @if (subitem.Active)
+                                            {
+                                                <td>
+                                                    <label style="background-color:green;color:white;">AKTİF</label>
+                                                </td>
+                                            }
+                                            else
+                                            {
+                                                <td>
+                                                    <label style="background-color:orangered;color:white;">PASİF</label>
+                                                </td>
+                                            }
+                                            <td>
+                                                <a asp-action="CategoryEdit" asp-route-id="@subitem.CategoryID" class="btn btn-primary">DÜZELT</a>
+
+                                                <a asp-action="CategoryDetails" asp-route-id="@subitem.CategoryID" class="btn btn-info">DETAY</a>
+
+                                                <a asp-action="CategoryDelete" asp-route-id="@subitem.CategoryID" class="btn btn-danger">SİL</a>
+                                            </td>
+                                        </tr>
+                                    }
+                                }
+
+                            }
+
+
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <!-- END SAMPLE TABLE PORTLET-->
+    </div>
+</div>
+

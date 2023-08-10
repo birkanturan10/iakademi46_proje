@@ -1,0 +1,49 @@
+﻿@model Status
+
+@{
+    ViewData["Title"] = "StatusDelete";
+    Layout = "~/Views/Shared/AdminLayout.cshtml";
+}
+
+
+<div class="row">
+    <div class="col-md-2"></div>
+    <div class="col-md-8">
+
+        <!-- BEGIN SAMPLE TABLE PORTLET-->
+        <div class="portlet box red">
+            <div class="portlet-body">
+                <div class="table-scrollable">
+                    <table class="table table-dark table-hover">
+                        <thead>
+                            <tr style="background-color:gray;color:white;">
+                                <th>
+                                    @Html.DisplayFor(model => model.StatusID)
+                                </th>
+                                <th>
+                                    @Html.DisplayFor(model => model.StatusName)
+                                </th>
+                                <th>
+                                    @Html.DisplayFor(model => model.Active)
+                                </th>
+                            </tr>
+                        </thead>
+                    </table>
+
+                    <form asp-action="StatusDelete" method="post">
+                        <input type="hidden" asp-for="StatusID" />
+
+                        <input type="submit" value="SİL" class="btn btn-danger" onclick="return confirm('Silmek istediğinizden emin misiniz?')" />
+
+                        <a asp-action="StatusIndex" class="btn btn-success">DURUM LİSTESİ</a>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+        <!-- END SAMPLE TABLE PORTLET-->
+    </div>
+</div>
+
+
+
