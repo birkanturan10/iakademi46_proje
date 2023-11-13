@@ -14,4 +14,5 @@ Kullanılan Teknolojiler:
 6. Bootstrap
 7. MSSQL Server
 8. jQuery
-9. ASP .NET Core
+9. AJAX
+10. ASP .NET Core
